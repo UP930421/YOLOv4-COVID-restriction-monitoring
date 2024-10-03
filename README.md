@@ -12,6 +12,7 @@ This code has been stored in Google Drive and run in Google Colab, so if you wan
 
 1. Create a folder 'yolov4mine' for your project and put the 'maincode.ipynb' file into it.
 2. Open the maincode file and run steps above the 'change make file' label (the darknet folder should now be in the yolov4mine folder).
-3. In the darknet folder replace the 'Makefile', 'data' folder, 'cfg' folder and the 'backup' folder with the objects of the same name from this git repo.
-4. Run the 'change make file' and 'make make file' code to create the make file and the 'change cfg file' code.
-5. Run the long code under 'on webcam recognition' and after approving the access to your camera, the application should appear on the bottom of the code.
+3. Download the 'yolov4-custom_best.weights' from this Google Drive https://drive.google.com/drive/folders/1yDsJ18eKdsSOsRjhLghuiPpRPOCVesoj?usp=sharing and put them into the backup folder.
+4. In the darknet folder replace the 'Makefile', 'data' folder and 'cfg' folder folder with the objects of the same name from this git repo.
+5. Run the 'change make file' and 'make make file' code to create the make file and the 'change cfg file' code.
+6. Run the long code under 'on webcam recognition' and after approving the access to your camera, the application should appear on the bottom of the code.
